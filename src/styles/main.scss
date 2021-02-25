@@ -1,0 +1,41 @@
+$sideWidth: 230px;
+$sideColseWidth: 64px;
+$headerHeight: 75px;
+$mainColor: #bfa;
+// 去除登录表单100px的margin-left
+// .el-form-item__content{
+//   margin-left: 0 !important;
+// }
+.el-form-item{
+  margin-bottom: 10px !important;
+}
+.full-left{
+  float: left;
+}
+.full-right{
+  float: right;
+}
+.el-menu--vertical{
+  background-color: rgb(204, 204, 204);
+  .el-menu-item:hover{
+    background-color: rgba(245, 108, 108, 0.5) !important;
+  }
+}
+
+.el-table td, .el-table th{
+  text-align: center !important;
+}
+.el-table td{
+  padding: 10px 0;
+}
+.el-table .cell{
+  line-height: 14px;
+  color: #000;
+}
+.el-dialog__footer{
+  text-align: center;
+  padding: 0 20px 35px !important;
+  button{
+    width: 120px;
+  }
+}
